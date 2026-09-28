@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haile Sintayehu | Data Scientist & ML Engineer</title>
+    <meta name="description" content="Portfolio of Haile Sintayehu, a Data Scientist, Machine Learning, and Computer Vision Specialist based in Addis Ababa, Ethiopia.">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Haile <span>Sintayehu</span></div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button class="theme-toggle" id="themeToggle" title="Toggle Dark Mode"><i class="fas fa-moon"></i></button>
+            <a href="#" class="btn-cv">Resume <i class="fas fa-download"></i></a>
+            <a href="#certifications" class="btn-cert">Certificates <i class="fas fa-award"></i></a>
+            <div class="mobile-menu-btn" id="mobileMenuBtn"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text fade-in">
+                <h3>Hi, I'm</h3>
+                <h1>Haile Sintayehu</h1>
+                <h2><span class="typing-text"></span><span class="cursor">|</span></h2>
+                <p>4th-Year Data Science Student • Machine Learning & Computer Vision Engineer. Building intelligent systems with Deep Learning, Computer Vision, and interactive dashboards.</p>
+                <div class="hero-btns">
+                    <a href="#portfolio" class="btn-primary">View My Work</a>
+                    <a href="#contact" class="btn-secondary">Let's Talk</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/haile6" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://t.me/codin1" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
+                    <a href="mailto:hailesintayehu113@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-img-box fade-in">
+                <div class="img-container">
+                    <div class="profile-pic-container">
+                        <div class="profile-spin"></div>
+                        <div class="profile-rotation"></div>
+                        <div class="profile-img-wrapper">
+                            <img src="image.png" alt="Haile Sintayehu" id="profileImage">
+                            <input type="file" id="imageUpload" accept="image/*" style="display: none;">
+                            <label for="imageUpload" class="upload-btn"><i class="fas fa-camera"></i></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-title fade-in">
+            <h2>About Me</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-grid">
+            <div class="about-img fade-in">
+                <div class="vtec-ai-dashboard">
+                    <div class="vtec-ai-header">
+                        <div class="vtec-ai-logos">
+                            <span class="logo-placeholder">ESSGI</span>
+                            <span class="logo-placeholder">DBU</span>
+                        </div>
+                        <h3>vTEC PREDICTION AI</h3>
+                    </div>
+                    <div class="vtec-ai-stats">
+                        <div class="ai-stat">SSN: <span>42.8</span></div>
+                        <div class="ai-stat">F10.7: <span>95.1</span></div>
+                    </div>
+                    <div class="vtec-ai-graph">
+                        <svg viewBox="0 0 400 150" class="vtec-svg">
+                            <path class="vtec-line" d="M0,130 Q50,120 100,80 T200,30 T300,90 T400,110" />
+                            <circle class="vtec-dot" cx="200" cy="30" r="4" />
+                        </svg>
+                        <div class="graph-labels">
+                            <span>00:00</span>
+                            <span>12:00</span>
+                            <span>24:00</span>
+                        </div>
+                    </div>
+                    <div class="vtec-ai-controls">
+                        <div class="vtec-ai-inputs">
+                            <span>2031</span>
+                            <span>02</span>
+                            <span>01</span>
+                        </div>
+                        <button class="vtec-ai-btn">PREDICT vTEC</button>
+                    </div>
+                </div>
+            </div>
+            <div class="about-info fade-in">
+                <h3>Transforming Data into Solutions 🚀</h3>
+                <p>I am a fourth-year Data Science student at Debre Berhan University with a strong passion for solving real-world problems using data. My main areas of interest include Machine Learning, Deep Learning, and Computer Vision.</p>
+                <p>During my internship at the Ethiopia Space and Geo-Spatial Institution (Addis Ababa Station), I developed real-world predictive models like VTEC forecasting to support national geospatial initiatives.</p>
+                <div class="info-cards">
+                    <div class="info-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h4>Education</h4>
+                        <p>B.Sc. in Data Science<br>Debre Berhan University (2027)</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-location-dot"></i>
+                        <h4>Location</h4>
+                        <p>Addis Ababa, Ethiopia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="section-title fade-in">
+            <h2>Technical Expertise</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="skills-container">
+            <div class="skill-category fade-in">
+                <h3><i class="fas fa-code"></i> Core Skills</h3>
+                <div class="skill-item">
+                    <div class="skill-info"><span>Python</span><span>95%</span></div>
+                    <div class="skill-bar"><div class="skill-progress" style="width: 95%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span>Machine Learning</span><span>90%</span></div>
+                    <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span>Deep Learning</span><span>88%</span></div>
+                    <div class="skill-bar"><div class="skill-progress" style="width: 88%;"></div></div>
+                </div>
+            </div>
+            <div class="skill-category fade-in">
+                <h3><i class="fas fa-eye"></i> Specialties</h3>
+                <div class="skill-item">
+                    <div class="skill-info"><span>Computer Vision</span><span>85%</span></div>
+                    <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span>Data Visualization</span><span>92%</span></div>
+                    <div class="skill-bar"><div class="skill-progress" style="width: 92%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span>Data Analysis</span><span>93%</span></div>
+                    <div class="skill-bar"><div class="skill-progress" style="width: 93%;"></div></div>
+                </div>
+            </div>
+            <div class="skill-category fade-in">
+                <h3><i class="fas fa-users"></i> Soft Skills</h3>
+                <div class="tech-stack" style="margin-top: 10px;">
+                    <span class="tech-tag">Problem Solving</span>
+                    <span class="tech-tag">Critical Thinking</span>
+                    <span class="tech-tag">Teamwork</span>
+                    <span class="tech-tag">Communication</span>
+                    <span class="tech-tag">Time Management</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="portfolio">
+        <div class="section-title fade-in">
+            <h2>Featured Projects</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card fade-in">
+                <div class="project-img">
+                    <img src="vtec.png" alt="VTEC Prediction" id="vtecImg" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="vtec-interactive-overlay">
+                        <div class="scanning-line"></div>
+                        <div class="data-point p1" style="top: 30%; left: 40%;"></div>
+                        <div class="data-point p2" style="top: 50%; left: 60%;"></div>
+                        <div class="data-point p3" style="top: 20%; left: 80%;"></div>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="https://github.com/haile6/Total-Electron-Content-prediction-on-Adis-Abeba-Station" target="_blank" class="btn-primary">View Full Analysis</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>🌍 VTEC Prediction System</h3>
+                    <p>Hybrid Deep Learning model to forecast Vertical Total Electron Content for improved GPS accuracy. Developed at Ethiopian Space & Geo-Spatial Institution.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">TensorFlow</span>
+                        <span class="tech-tag">Time-Series</span>
+                        <span class="tech-tag">Geo-Spatial</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card fade-in">
+                <div class="project-img">
+                    <img src="pothole.png" alt="Pothole Detection" id="potholeImg">
+                    <div class="project-overlay">
+                        <a href="https://github.com/haile6" target="_blank" class="btn-primary">View Project</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>🛣️ Pothole Detection System</h3>
+                    <p>Computer Vision pipeline using CNN and YOLO for road condition assessment and real-time tire risk probability calculations.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">OpenCV</span>
+                        <span class="tech-tag">CNN</span>
+                        <span class="tech-tag">YOLO</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card fade-in">
+                <div class="project-img">
+                    <img src="football.png" alt="Football Dashboard" id="footballImg">
+                    <div class="project-overlay">
+                        <a href="https://github.com/haile6/football-player-market-value-prediction-dashboard" target="_blank" class="btn-primary">View Project</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>⚽ Football Market Value Dashboard</h3>
+                    <p>Interactive Dash web app visualizing player market values with 180-day future predictions using Linear Regression.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python Dash</span>
+                        <span class="tech-tag">Plotly</span>
+                        <span class="tech-tag">ML</span>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="section-title fade-in">
+            <h2>Certifications</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="cert-grid fade-in">
+            <div class="cert-card">
+                <div class="cert-icon"><i class="fas fa-robot"></i></div>
+                <div class="cert-info">
+                    <h3>AI Certificate</h3>
+                    <p>Professional Artificial Intelligence Training</p>
+                    <a href="ai-certificate.png" target="_blank" class="btn-view-cert">View Certificate <i class="fas fa-image"></i></a>
+                </div>
+            </div>
+            <div class="cert-card">
+                <div class="cert-icon"><i class="fas fa-chart-line"></i></div>
+                <div class="cert-info">
+                    <h3>Data Analysis Certificate</h3>
+                    <p>Advanced Data Analysis & Visualization</p>
+                    <a href="data-analysis-certificate.png" target="_blank" class="btn-view-cert">View Certificate <i class="fas fa-image"></i></a>
+                </div>
+            </div>
+            <div class="cert-card">
+                <div class="cert-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="cert-info">
+                    <h3>E-SHE Certificate</h3>
+                    <p>E-SHE Digital Literacy & Soft Skills</p>
+                    <a href="e-she-certificate.png" target="_blank" class="btn-view-cert">View Certificate <i class="fas fa-image"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="section-title fade-in">
+            <h2>Let's Connect</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info fade-in">
+                <a href="mailto:hailesintayehu113@gmail.com" class="contact-method">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>hailesintayehu113@gmail.com</p>
+                    </div>
+                </a>
+                <a href="https://t.me/codin1" target="_blank" class="contact-method">
+                    <i class="fab fa-telegram"></i>
+                    <div>
+                        <h4>Telegram</h4>
+                        <p>@codin1</p>
+                    </div>
+                </a>
+                <a href="https://github.com/haile6" target="_blank" class="contact-method">
+                    <i class="fab fa-github"></i>
+                    <div>
+                        <h4>GitHub</h4>
+                        <p>github.com/haile6</p>
+                    </div>
+                </a>
+            </div>
+            <form class="contact-form fade-in" id="contactForm">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" id="name" placeholder="Yohannes Abebe" required>
+                </div>
+                <div class="form-group">
+                    <label>Email Address</label>
+                    <input type="email" id="email" placeholder="joeabe@gmail.com" required>
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea id="message" rows="5" placeholder="Your Message..." required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-socials">
+                <a href="https://github.com/haile6" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://t.me/codin1" target="_blank"><i class="fab fa-telegram"></i></a>
+                <a href="mailto:hailesintayehu113@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            <button class="btn-share" onclick="sharePortfolio()">Share Portfolio <i class="fas fa-share-alt"></i></button>
+            <p class="footer-copy">&copy; 2026 Haile Sintayehu. Built with <i class="fas fa-heart" style="color: #ff3366;"></i> and Data Science.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

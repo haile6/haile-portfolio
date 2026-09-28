@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: haile-portfolio
+    runtime: static
+    staticPublishPath: .
